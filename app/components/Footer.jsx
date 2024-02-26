@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-yellow-400 text-gray-800 py-12">
       <div className="container mx-auto">
-        <p className="text-center mt-4">
+        <p className="text-center mt-4 sm:text-left sm:mt-0">
           &copy; 2022 Your Company. All rights reserved.
         </p>
       </div>

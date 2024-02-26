@@ -35,15 +35,15 @@ const Brands = () => {
     },
   ];
   return (
-    <div className="flex justify-center items-center flex-col pt-20">
+    <div className="flex justify-center items-center flex-col  text-center md:pt-20 pt-72">
       <h1 className="text-8xl text-black">Our Clients</h1>
       <div className="flex flex-wrap items-center justify-center w-full gap-20 p-20">
         {brands.map((brand, index) => (
           <div
             key={index}
-            className="text-2xl flex justify-center flex-col items-center w-72 h-72 hover:scale-110 transition-transform duration-100 ease-in-out"
+            className="text-2xl flex justify-center flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4"
           >
-            <img src={brand.image} alt="" />
+            <img src={brand.image} alt="" className="max-w-full h-auto" />
           </div>
         ))}
       </div>

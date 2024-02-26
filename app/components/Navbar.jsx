@@ -17,7 +17,7 @@ function Navbar({ scrollToSection }) {
   };
 
   return (
-    <nav className="w-screen h-32  shadow-md flex flex-row">
+    <nav className="w-screen h-32 md:flex hidden  shadow-md flex-row">
       <div className="text-4xl ml- bg-white pl-52 px-20 h-full flex justify-center items-center">
         <img src="/logo.png" alt="" />
       </div>
